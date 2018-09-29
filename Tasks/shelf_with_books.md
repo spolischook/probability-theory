@@ -12,7 +12,7 @@ What probability that at least one of 3 will be hard covered.
 - `A` - is the event, at least one book from taken is hard covered.
 - ![not A](./formulas/not_a.svg) - is the event, no hard covered books was taken from shelf
 
-This task can be solved by **Classical definition of probability**:
+This task can be solved by **[Classical definition of probability](https://en.wikipedia.org/wiki/Classical_definition_of_probability)**:
 
     The probability of an event is the ratio of the number of cases favorable to it, 
     to the number of all cases possible when nothing leads us to expect 
