@@ -3,7 +3,7 @@
 Source combinatorics before you start:
 
 ```R
-source("Letters.R")
+source("./includes/letters.R")
 ```
 Then try first example:
 ```R
