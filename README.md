@@ -26,3 +26,7 @@ Follow [this doc](./includes/setup.md) to setup your environment
 ### Formula Bernoulli
 
 - [Hit to bull's eye](./Tasks/6_from_8_hit_to_bulls_eye.md)
+
+### Appendix
+
+- [Formulas](./Tasks/formulas/_formulas.md)
