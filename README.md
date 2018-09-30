@@ -10,7 +10,7 @@ Follow [this doc](./includes/setup.md) to setup your environment
 
 ### Combinatorics and Set theory tasks:
 
-- [Letters with permutations and without](./Tasks/letters_permutations.md)
+- [Letters with permutations and with/without repetitions](./Tasks/letters_permutations.md)
 - [About two shooters](./Tasks/two_shooters.md)
 - [Three shots, two hits](./Tasks/three_shots_two_hits.md)
 

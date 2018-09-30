@@ -5,6 +5,7 @@
 There are 15 books in random order on the shelf. 
 5 books in hard cover. 
 From the shelf take at random 3 books.
+
 What probability that at least one of 3 will be hard covered.
 
 ### Solution

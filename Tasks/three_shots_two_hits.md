@@ -4,6 +4,7 @@
 
 Three shooters fire to target. 
 Probability of hit target for shooters 0.9, 0.8, 0.7 for first, second and third shooters accordingly.
+
 What of probability of two hits to target?
 
 ### Solution
