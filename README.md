@@ -1,72 +1,28 @@
 # Probability Theory
 
-This repository contains test code for solving task with R language
 
-## Setup
+This repository contains equations for soloving tasks from Theory of probability
+and test code in R language
 
-1. First of all you should get the current codebase. 
-a) The best way is by git:
-```bash
-git clone https://github.com/spolischook/probability-theory
-```
+### Setup
 
-b) But you can also download it from github as well
+Follow [this doc](./includes/setup.md) to setup your environment
 
-![Download from GitHub](img/github_download.jpg)
+### Combinatorics and Set theory tasks:
 
-Open RStudio [download and install it](https://www.rstudio.com/products/rstudio/download/#download)
-Set current directory and source code:
-```R
-setwd("path/to/codebase/directory")
-source("includes/combinatorics.R")
-```
+- [Letters with permutations and without](./Tasks/letters_permutations.md)
+- [About two shooters](./Tasks/two_shooters.md)
+- [Three shots, two hits](./Tasks/three_shots_two_hits.md)
 
-## Letters permutations
+### Classical definition of probability
 
-Source combinatorics before you start:
+- [Consignment with defective part](./Tasks/consignment_with_defective_part.md)
+- [Shelf with books](./Tasks/shelf_with_books.md)
 
-```R
-source("Letters.R")
-```
-Then try first example:
-```R
-stringPermutations("THEORY")
-```
-```stringPermutations``` will return number of unique words that could be combined from letters of "THEORY".
-The actual result will be **720**. However with the same number of letters result could be different, e.g.:
+### Law of total probability
 
-```R
-stringPermutations("LETTER")
-```
-Result will be **180**, because of ```E``` and ```T``` letters are duplicated and thereby should be calculate by formula
-of Permutation with Repetition
+- [Spikes and grains](./Tasks/spikes_and_grains.md)
 
-Learn more about [Permutation with Repetition](https://www.ck12.org/probability/permutations-with-repetition/lesson/Permutations-with-Repetition-BSC-PST/)
+### Formula Bernoulli
 
-## Formula Bernulli
-
-##### Source code
-
-```R
-source("Bernulli.R")
-```
-
-###### The problem
-The probability of hit bull's-eye is 0.6. What is the probability from 8 shots there will be 6 hits bull's-eye?
-###### The solution
-n = 8 count of tests
-m = 6 count of successes
-p = probability of success
-
-So by formula Bernulli we can find the solution
-
-```R
-fBernulli(p = 0.6, m = 6, n = 8)
-```
-even more we can drow dependency between probability and result. Use this:
-```R
-p = seq(0,1,by=0.01)
-plot(fBernulli(p = p, m = 6, n = 8), type='l')
-```
-
-![Bernulli plot](img/bernuli_1.png)
+- [Hit to bull's eye](./Tasks/6_from_8_hit_to_bulls_eye.md)
