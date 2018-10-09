@@ -17,4 +17,4 @@
 
 #### Poisson limit
 
-![Poisson limit](./formulas/poisson_limit.svg)
+![Poisson limit](poisson_limit.svg)
