@@ -16,6 +16,10 @@ The problem can be solved by Possion formula
 
 ![Poisson limit](./formulas/poisson_limit.svg)
 
-a) ![solution a](./formulas/commutator_load.a.svg)
+a)
 
-b) ![solution b](./formulas/commutator_load.b.svg)
+![solution a](./formulas/commutator_load.a.svg)
+
+b)
+
+![solution b](./formulas/commutator_load.b.svg)
