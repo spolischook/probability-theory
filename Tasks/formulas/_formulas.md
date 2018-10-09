@@ -14,3 +14,7 @@
 #### Bernoulli formula
 
 ![Bernoulli formula](bernoulli.svg)
+
+#### Poisson limit
+
+![Poisson limit](./formulas/poisson_limit.svg)
