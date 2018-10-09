@@ -3,7 +3,7 @@
 # Created by: spolischook
 # Created on: 9/19/18
 
-source("includes/combinatorics.R")
+source("combinatorics.R")
 
 fBernoulli <- function(p, m, n) {
     q = 1 - p
