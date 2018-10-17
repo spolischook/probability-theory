@@ -1,0 +1,13 @@
+{
+    "name": "spolischook/probability-theory",
+    "description": "Case studies for Probability Theory",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Serhii Polishchuk",
+            "email": "spolischook@gmail.com"
+        }
+    ],
+    "require": {}
+}
