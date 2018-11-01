@@ -18,3 +18,7 @@
 #### Poisson limit
 
 ![Poisson limit](poisson_limit.svg)
+
+#### Moivre–Laplace theorem
+
+![Moivre–Laplace integral theorem](moivre-laplace-integral-theorem.svg)
