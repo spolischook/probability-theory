@@ -22,3 +22,5 @@
 #### Moivre–Laplace theorem
 
 ![Moivre–Laplace integral theorem](moivre-laplace-integral-theorem.svg)
+
+see [The students life task](../students_life.md)
