@@ -33,6 +33,10 @@ Follow [this doc](./includes/setup.md) to setup your environment
 
 - [Commutator load](./Tasks/commutator_load.md)
 
+### Moivre–Laplace theorem
+
+- [Students life](./Tasks/students_life.md)
+
 ### Appendix:
 
 - [Formulas](./Tasks/formulas/_formulas.md)
