@@ -22,7 +22,7 @@ For all subtasks there are next common values:
 1. p = 0.8
 2. q = 0.2
 3. n = 100
-
+---
 For the first subtask:
 1. k1 = 75
 2. k2 = 90
@@ -30,14 +30,14 @@ For the first subtask:
 So solution will looks like:
 
 ![First solution](./formulas/students_life.1.svg)
-
+---
 For the second subtask:
 
 1. k1 = 75
 2. k2 = 100
 
 ![Second solution](./formulas/students_life.2.svg)
-
+---
 For the third subtask:
 
 1. k1 = 0
