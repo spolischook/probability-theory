@@ -14,13 +14,14 @@ Find probability of availability for the next ranges:
 There is single solution that available for calculation of probability
 with range of parameters - [Moivre–Laplace theorem](https://en.wikipedia.org/wiki/De_Moivre%E2%80%93Laplace_theorem).
 Integral equation is looks like:
+
 ![Moivre–Laplace integral theorem](./formulas/moivre-laplace-integral-theorem.svg)
 
 For all subtasks there are next common values:
 
 1. p = 0.8
-2. q= 0.2
-3. n=100
+2. q = 0.2
+3. n = 100
 
 For the first subtask:
 1. k1 = 75
