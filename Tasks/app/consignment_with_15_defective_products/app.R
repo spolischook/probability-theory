@@ -45,18 +45,17 @@ ui <- fluidPage(
 
 # Define server logic required to draw a histogram
 server <- function(input, output) {
-   
-   output$distPlot <- renderPlot({
-     n <- 200
-     p <- seq(0, 1, by=0.01)
-      
-     plot(p, local_m_laplace(input$k, n, p), type = 'l')
-   })
-   output$datatable <- DT::renderDataTable({
-       n <- 200
-     p <- seq(0, 1, by=0.01)
-     DT::datatable(data.frame(probability = p, value = round(local_m_laplace(input$k, n, p), 3)))
-   })
+    n <- 200
+    p <- seq(0, 1, by=0.01)
+    values <- reactive({ local_m_laplace(input$k, n, p) })
+
+    output$distPlot <- renderPlot({
+        plot(p, values(), type = 'l')
+    })
+
+    output$datatable <- DT::renderDataTable({
+        DT::datatable(data.frame(probability = p, value = round(values(), 4)))
+    })
 }
 
 # Run the application 
