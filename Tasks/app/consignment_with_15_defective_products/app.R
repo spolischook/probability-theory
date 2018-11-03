@@ -9,6 +9,7 @@
 source('../../../includes/local_m_laplace.R')
 library(shiny)
 library(markdown)
+library(DT)
 
 # Define UI for application that draws a histogram
 ui <- fluidPage(
@@ -33,8 +34,11 @@ ui <- fluidPage(
 
    ),
     fluidRow(
-        column(12,
+        column(6,
           includeMarkdown("../../consignment_with_15_defective_products.md")
+        ),
+        column(6,
+          DT::dataTableOutput("datatable")
         )
       )
 )
@@ -47,6 +51,11 @@ server <- function(input, output) {
      p <- seq(0, 1, by=0.01)
       
      plot(p, local_m_laplace(input$k, n, p), type = 'l')
+   })
+   output$datatable <- DT::renderDataTable({
+       n <- 200
+     p <- seq(0, 1, by=0.01)
+     DT::datatable(data.frame(probability = p, value = round(local_m_laplace(input$k, n, p), 3)))
    })
 }
 
