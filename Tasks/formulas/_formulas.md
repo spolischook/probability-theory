@@ -19,8 +19,16 @@
 
 ![Poisson limit](poisson_limit.svg)
 
-#### Moivre–Laplace theorem
+#### Integral Moivre–Laplace theorem
 
 ![Moivre–Laplace integral theorem](moivre-laplace-integral-theorem.svg)
 
 see [The students life task](../students_life.md)
+
+#### Local Moivre–Laplace theorem
+
+![Moivre–Laplace local theorem](moivre-laplace-local-theorem.svg)
+
+see [Consignment with 15 defective products task](../consignment_with_15_defective_products.md)  
+see [R code](../../includes/local_m_laplace.R)
+
