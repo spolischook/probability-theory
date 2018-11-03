@@ -50,7 +50,13 @@ server <- function(input, output) {
     values <- reactive({ local_m_laplace(input$k, n, p) })
 
     output$distPlot <- renderPlot({
-        plot(p, values(), type = 'l')
+        plot(
+            p,
+            values(),
+            type = 'l',
+            xlab='Probability of defective products in consignment',
+            ylab=sprintf("Probability of %i defective product(s) in consignment of %i", input$k, n)
+        )
     })
 
     output$datatable <- DT::renderDataTable({
