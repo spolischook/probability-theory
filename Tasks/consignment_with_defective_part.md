@@ -17,3 +17,26 @@ This task can be solved by **[Classical definition of probability](https://en.wi
     which renders them, for us, equally possible.
     
 ![solution](./formulas/consignment_with_defective_part.1.svg)
+
+Consider next parameters
+
+N = 100  
+n = 15  
+m = 5
+
+```R
+source('./includes/combinatorics.R')
+N = 100
+n = 15
+m = 5
+res <- combinations(n, N-m)/combinations(n, N)
+```
+res = 0.435683324407506
+
+It's works for small number, but in large it overflow the available range of float numbers:
+
+N = 1000
+n = 200
+m = 55
+
+`res` would be NaN
