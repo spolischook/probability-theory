@@ -20,4 +20,6 @@ n = 200
 
 ![Consignment with 15 defective part solution](./formulas/consignment_with_15_defective_part.svg)
 
+See [shiny web app](https://kotoblog.pp.ua/probability-theory/consignment_with_15_defective_products/)
+
 
