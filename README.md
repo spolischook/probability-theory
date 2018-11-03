@@ -36,6 +36,7 @@ Follow [this doc](./includes/setup.md) to setup your environment
 ### Moivre–Laplace theorem
 
 - [Students life](./Tasks/students_life.md)
+- [Consignment with 15 defective products](./Tasks/consignment_with_15_defective_products.md)
 
 ### Appendix:
 
