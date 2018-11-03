@@ -23,11 +23,6 @@ ui <- fluidPage(
                      "Number of defective products:",
                      min = 1,
                      max = 200,
-                     value = 15),
-         sliderInput("k",
-                     "Number of defective products:",
-                     min = 1,
-                     max = 200,
                      value = 15)
       ),
       
