@@ -40,7 +40,7 @@ ui <- fluidPage(
         column(6,
           DT::dataTableOutput("datatable")
         )
-      )
+    )
 )
 
 # Define server logic required to draw a histogram
